@@ -1,0 +1,13 @@
+:root {
+  --columnas: 2;
+}
+
+.columnas {
+  column-count: var(--columnas);
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 20px;
+}
